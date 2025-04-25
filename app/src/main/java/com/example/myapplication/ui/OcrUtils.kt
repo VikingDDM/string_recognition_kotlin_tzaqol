@@ -7,6 +7,7 @@ import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import org.apache.commons.text.similarity.LevenshteinDistance
 
+
 object OcrUtils {
 
     fun processImage(imageProxy: ImageProxy, onResult: (String) -> Unit) {

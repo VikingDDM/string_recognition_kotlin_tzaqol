@@ -123,5 +123,6 @@ private fun openUrl(context: Context, url: String, onClose: () -> Unit) {
     context.startActivity(intent)
 
     //After Browser open, call onClose to return to introScreen
+    //After Browser open, call onClose to return to introScreen
     onClose()
 }
